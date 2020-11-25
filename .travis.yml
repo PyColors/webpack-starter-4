@@ -1,0 +1,12 @@
+language: node_js
+
+os: osx
+
+script:
+  - yarn install
+  - yarn prod
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
